@@ -1,97 +1,64 @@
 body{
-    color: #40514E;
+  
     margin:0;
     text-align: center;
     font-family: 'Merriweather', serif;
-}
-h1{
-    color: #66BFBF;
-    margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 5.625rem;/*(90px/16%)*/
-  /*  line-height: 2;*/
-   
-}
-h2{
-    color: #66BFBF;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2rem;
-    font-weight: normal;
-    padding-bottom: 10px;
-
-
-}
-h3{
-    color: #11999E;
-    font-family: 'Montserrat', sans-serif;
-}
-.top-container{
-    background-color: #EAF6F6;
-    position: relative;
-    padding: 100px;
-    padding-bottom: 0;
     
+}
+ /* TOP CONTAINER */
+.top-container{
+    background-color: #181823;
+    /* position: relative; */
+    padding: 5% 15%;
+    margin:0;
+    color: white;
+    
+}
+
+/* NAVBAR */
+.navbar{
+    margin:0 0 7%;
+    padding: 0 0 1.5rem;
+} 
+.nav-item{
+    padding: 0 18px;
+}
+.nav-link{
+    font-family: 'Roboto Mono', monospace;
+}
+/* HEADINGS */
+.top-heading{
+    padding-bottom: 5%;
+}
+
+/* ABOUT */
+#about{
+    background-color: white;
+
 }
 .middle-container{
-    margin: 100px 0 100px 0;
-}
-.btn {
-    -webkit-border-radius: 14px;
-    -moz-border-radius: 14px;
-    border-radius: 14px;
-    color: #FFFFFF;
-    font-family: Arial;
-    font-size: 20px;
-    font-weight: 200;
-    padding: 19px;
-    background-color: #11999E;
-   
-   
-  
-    border: solid #337FED 0;
-    text-decoration: none;
-    display: inline-block;
-    cursor: pointer;
-    text-align: center;
-    width: 11%;
-    margin-top: 20px;
-    margin-bottom: 60px;
- }
- 
- .btn:hover {
-    border: solid #0059A0 1px;
-    background: #1E62D0;
-    background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
-    background-image: -webkit-gradient(to bottom, #1E62D0, #3D94F6);
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    border-radius: 20px;
-    text-decoration: none;
- }
+    padding: 7% 15%;
+    margin: 5%;
 
-.bottom-container{
-    background-color: #66BFBF;
-    padding: 50px 0 20px;
 }
-span{
-    text-decoration:underline ;
-}
-.bottom-cloud{
-    position: absolute;
-    left: 340px;
-    top: 456px;
-}
-.top-cloud{
-    position: absolute;
-    right: 220px;
-    top: 90px;
-    height: 4.125rem;
 
-    
+/* skill */
+#skill{
+    background-color: #181823;
+    color:white;
 }
+.skills{
+    padding: 7% 15%;
+    margin: 0 3%; 
+}
+.myskills{
+    padding: 0 5% 5%;
+}
+.skill-heading{
+    padding: 5%;
+    font-size: 1.5rem;;
+}
+/* IMAGES */
 .me{
     border-radius: 50%;
     width: 200px ;
@@ -100,61 +67,52 @@ span{
 .img1{
     
     width: 25%;
-    float: left;
+    /* float: left; */
     margin-right:30px;
+    padding-bottom: 3%;
 }
 .img2{
     width: 25%;
-    float: right;
+    /* float: right; */
     margin-left: 10px;
+    padding-bottom: 3%;
   
 }
 .img3{
-      width: 25%;
-    float: left;
+    width: 25%;
+    /* float: left; */
     margin-right:30px;
+    padding-bottom: 3%;
+
 }
-a{
-    font-family: 'Montserrat', sans-serif;
-    color: #11999E;
+/* contact */
+.contact-me{
+    padding: 7% 15%;
+    margin: 0 3%; 
+}
+/* FOOTER */
+#footer{
+    background-color: #181823;
+    color:white;
+    /* margin: 100px 0 100px 0; */
+    padding: 5% 15%;
+}
+.footer-link{
     margin: 0 10 20px 0;
     padding: 50px;
-    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
 }
-a:hover{
-    color: #EAF6F6;
+
+/* CONTACT PAGE */
+.contact-head{
+    background-color: #181823;
+    color: white;
+    font-size: 2rem;
+    margin: 0;
+    padding: 4% 13% 7%;
 }
-.skill-row{
-    width: 50%;
-    position: relative;
-    margin: 100px auto 100px auto;
-    text-align: left;
+
+.form{
+    padding: 4% 20%;
 }
-hr{
-    
-    border-style: dotted none none none;
-    border-width: 7px;
-    width: 3%;
-    color: #808080;
-   margin: 50px auto;
-    
-   
-}
-p{
-    line-height: 2;
-}
-.My-name{
-    color:#EAF6F6;
-}
-.intro{
-    width: 30%;
-    margin: auto;
-}
-.skills{
-    text-align: center;
-}
-@media only screen and (max-width: 600px) {
-    body {
-      font-size: 14px;
-    }
-  }
